@@ -7,25 +7,25 @@ import com.capg.fms.model.Flight;
 public class FlightDaoImpl implements FlightDao {
 
 	@Override
-	public Flight addFlight(Flight f) {
+	public Flight addFlight(Flight flight) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Flight modifyFlight(Flight f) {
+	public Flight updateFlight(Flight flight) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Flight viewFlight(long fno) {
+	public Flight retrieveFlight(long flightNumber) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Flight> viewFlight() {
+	public List<Flight> retrieveAllFlights() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -34,8 +34,9 @@ public class FlightDaoImpl implements FlightDao {
 	public void deleteFlight(long fno) {
 		// TODO Auto-generated method stub
 		
-	} 
+	}
 
+	
 
 
 }
